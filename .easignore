@@ -1,0 +1,59 @@
+# CRITICAL: Exclude the large model file (3GB)
+assets/models/
+
+# Exclude git history which can be very large
+.git/
+.gitignore
+.gitattributes
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Documentation
+README.md
+docs/
+
+# Development files
+.eslintrc*
+.prettierrc*
+eslint.config.js
+.editorconfig
+
+# Test files
+__tests__/
+**/*.test.js
+**/*.spec.js
+**/*.test.ts
+**/*.spec.ts
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Misc
+.DS_Store
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Local environment files
+.env*.local
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Metro cache
+.metro-health-check*
+
+# iOS Simulator
+.expo-shared/
+
+# Generated native folders (will be generated during build)
+ios/
+android/
